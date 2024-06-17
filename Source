@@ -1,0 +1,113 @@
+
+--Library
+local Orcah Hub = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "Mercury",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+local Tab = GUI:Tab{
+	Name = "Main",
+	Icon = "rbxassetid://17877385358"
+}
+
+--Main
+Tab:Button{
+	Name = "Infinite Yield",
+	Description = nil,
+	Callback = function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+}
+
+Tab:Button{
+	Name = "Universal Fly",
+	Description = nil,
+	Callback = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    end
+}
+
+Tab:Button{
+	Name = "Bedwar",
+	Description = nil,
+	Callback = function() 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
+	end
+}
+
+Tab:Button{
+	Name = "Script Searcher",
+	Description = Powered by scriptblox,
+	Callback = function() 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+	end
+}
+
+Tab:Button{
+	Name = "Evade",
+	Description = nil,
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+	end
+}
+
+Tab:Button{
+	Name = "Blade Ball",
+	Description = nil,
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+	end
+}
+
+Tab:Button{
+	Name = "Murder Mystery 2",
+	Description = nil,
+	Callback = function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/mm2/main/mm2"), true))()
+	end
+}
+
+Tab:Button{
+	Name = "Simple Spy",
+	Description = nil,
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua"))()
+	end
+}
+
+Tab:Button{
+	Name = "Race clicker",
+	Description = nil,
+	Callback = function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/CUkKFaQy"))()
+	end
+}
+
+Tab:Button{
+	Name = "Untitle tag game",
+	Description = nil,
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zer0ids/Qwerty/main/UntitledTag/NewScript.lua"))()
+	end
+}
+
+Tab:Button{
+	Name = "Button(SOON)",
+	Description = nil,
+	Callback = function()
+	print("i told you soon")
+	end
+}
+
+
+--info
+GUI:Credit{
+	Name = "vbad_99",
+	Description = "The One And Only Creator🥲",
+	V3rm = "No",
+	Discord = "Soon"
+}
