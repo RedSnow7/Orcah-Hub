@@ -16,7 +16,7 @@ local Tab = GUI:Tab{
 
 --Main
 Tab:Button{
-	Name = "Infinite Yield",
+	Name = "suck my penis",
 	Description = nil,
 	Callback = function() 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -32,7 +32,7 @@ Tab:Button{
 }
 
 Tab:Button{
-	Name = "Bedwar",
+	Name = "gaywar",
 	Description = nil,
 	Callback = function() 
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamingDrey/Flame-X-v2/main/Flame%20X%20Bedwars%20V2"))()
@@ -56,7 +56,7 @@ Tab:Button{
 }
 
 Tab:Button{
-	Name = "Blade Ball",
+	Name = "penis Ball",
 	Description = nil,
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
